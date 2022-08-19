@@ -1,7 +1,11 @@
 # Raffle Machine App
 This is a simple raffle machine app that draws winners out of participants in a random way.
 
-## Instructions
+## Opening the app
+- In Rstudio Window or Viewer: download app.R and www; decompress www; place app.R and www in the same folder; open app.R in Rstudio; click 'Run App' with the choice of 'Run in Window' or 'Run in Viewer Pane'.
+- In any browser: simply click this [link](https://ccfang2.shinyapps.io/RaffleMachine/).
+
+## Usage steps
 1. Upload a file containing all participants. Only excel files (.xlsx) are accepted. Format is as follows.
 
      Number | Name 
@@ -22,7 +26,7 @@ This is a simple raffle machine app that draws winners out of participants in a 
 
 3. Click 'Action' to start. Each time a user clicks, one participant is drawn, with an assignment to a prize. Please be aware that prizes are given from bottom to top (e.g., in the example above, notebooks are given at first, and finally the car). A notification pops up when all prizes are taken.
 
-4. If users run the app in Rstudio Window or RStudio Viewer, they can click the reload button at the top of page to reset. If users run the app in a browser (Simply click this [link](https://ccfang2.shinyapps.io/RaffleMachine/)), they just reload the webpage to reset. Each time users start a new raffle, they have to reset the app.
+4. If users run the app in Rstudio Window or RStudio Viewer, they can click the reload button at the top of page to reset. If users run the app in a browser, they just reload the webpage to reset. Each time users start a new raffle, they have to reset the app.
 
 ## Limitations
 - This raffle machine is built on the rule of randomness. Each participant can at most get one prize, and each prize could not be shared. 
@@ -31,6 +35,6 @@ This is a simple raffle machine app that draws winners out of participants in a 
 - Future improvements also include the addition of buttons like 'Back', 'Reset', 'Music on', etc.
 
 ## Others
-- All images in the app are copy right free.
+- All images in the app are copyright free.
 - This app is built in [Shiny, Rstudio](https://shiny.rstudio.com).
 
