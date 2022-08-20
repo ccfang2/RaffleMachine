@@ -35,6 +35,7 @@ This is a simple raffle machine app that draws winners out of participants in a 
 - Future improvements also include the addition of buttons like 'Back', 'Reset', 'Music on', etc.
 
 ## Others
+- Please ignore the files which are written in Mandarin. They are introduction of Shiny package, and I just have no idea where to save them. 
 - All images in the app are copyright free.
 - This app is built in [Shiny, Rstudio](https://shiny.rstudio.com).
 
